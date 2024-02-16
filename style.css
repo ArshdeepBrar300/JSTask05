@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: black;
+  color: green;
+  margin-top: 30px;
+  padding: 0 20px;
+  
+}
+
+.container{
+  border:1px solid white;
+  height:500px;
+  padding:20px;
+  border-radius: 20px;
+}
+.userinput {
+  background-color: balck;
+  display:flex;
+  flex-direction: column;
+
+}
+
+label {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  color: green;
+
+}
+
+input {
+  background-color: green;
+  color: black;
+  cursor:text;
+  margin-top:10px;
+  align-self: center;
+  width:100%;
+  padding: 2px 8px;
+  font-size: 20px;
+  border: none
+  
+}
+input:focus{
+  outline: none;
+}
+.hack{
+  font-size: 20px;
+}
+
+#button{
+  display: none;
+}
+button{
+   padding:6px;
+  width:100px;
+  height:40px;
+  background-color: green;
+  color: black;
+  align-self: center;
+
+  margin:10px 0;
+  font-size:20px
+}
+
+
